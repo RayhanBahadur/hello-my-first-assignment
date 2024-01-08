@@ -179,3 +179,82 @@ header{
     background-color: #fff  ;
     color: #F00;
 }
+.content-design{
+    width: 1320px;
+    height: 460px;
+    background:#fff;
+    margin: -10px auto;
+    /* position: relative; */
+}
+.text-part-one{
+    text-align: left;
+    font-style: normal;
+    padding-top: 42px;
+}
+.text-part-one h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 22px;
+    word-spacing: 2px;
+}
+.text-part-one h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    text-transform: capitalize;
+}
+.text-part-one p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+}
+.design-part {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    border: 15px solid #F00;
+    margin-left: 450px;
+    margin-top: -352px;
+  
+}
+.design-img{
+    width: 364px;
+    height: 364px;
+}
+.design-img img{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.text-part-two{
+    position:relative;
+    font-family: Inter;
+    font-style: normal;
+    bottom: 90%;
+    left: 83%;
+    
+}
+.text-part-two h1{
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+.text-part-two p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
+.small-img{
+    padding: 38px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
