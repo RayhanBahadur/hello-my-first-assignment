@@ -125,10 +125,57 @@ header{
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid transparent;
+    background-color: #F00;
+    color: #fff;
+
 }
 .banner-text button:hover{
     background-color: transparent;
     transition: all .5s linear;
-    background-color: #F00 ;
+    background-color: #fff ;
+    color: #F00;
+}
+.event-time{
+    width: 1320px;
+    height: 400px;
+    background-position: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 80px auto;
+    border-radius: 12px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+.event-time p{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.event-time p strong{
+    color: #F00;
+}
+
+.event-time button{
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 700;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: #F00;
     color: #fff;
+
+}
+.event-time button:hover{
+    background-color: transparent;
+    transition: all .5s linear;
+    background-color: #fff  ;
+    color: #F00;
 }
