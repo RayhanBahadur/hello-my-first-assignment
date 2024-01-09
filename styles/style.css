@@ -249,7 +249,45 @@ header{
 }
 
 
+.product-container{
+    width: 1600px;
+    height: 7335px;
+    margin: 100px 126px;
 
+}
+.product-title{
+    font-style: normal;
+}
+.product-title h4{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.product-title h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.product-title p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.product-img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    gap: 24px;
+
+}
+.product-item img{
+    border-radius: 18px;
+
+}
 
 
 
