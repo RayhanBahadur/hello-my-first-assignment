@@ -32,9 +32,9 @@ header{
 
 .full-content{
     width: 1600px;
-    height: 7335px;
+    /* height: 7335px; */
     margin: 0 auto;
-
+    position: relative;
 
 }
 
@@ -117,6 +117,7 @@ header{
 }
 .banner-text button{
     margin-left: 126px;
+    margin-right: 580px;
     text-transform: uppercase;
     font-size: 18px;
     font-family: Inter;
@@ -161,6 +162,7 @@ header{
 
 .event-time button{
     margin-top: 20px;
+    margin-right: 420px;
     text-transform: uppercase;
     font-size: 18px;
     font-family: Inter;
@@ -250,8 +252,8 @@ header{
 
 
 .product-container{
-    width: 1600px;
-    height: 7335px;
+    width: 1320px;
+    height: 1100px;
     margin: 100px 126px;
 
 }
@@ -281,18 +283,153 @@ header{
     display: flex;
     flex-wrap: wrap;
     padding: 20px 0px;
-    gap: 24px;
+    gap: 20px;
 
 }
 .product-item img{
     border-radius: 18px;
 
 }
+.subscribtion-bar{
+    width: 1320px;
+    height: 600px;
+    margin: 200px auto;
+    background: rgba(255, 0, 0, 0.05);
+    position: relative;
+}
+.group-img{
+    padding-top: 50px;
+    left: 550px;
+    position: absolute;
+}
+.subcribe-text{
+    font-style: normal;
+    text-align: center;
+    padding-top: 230px;
+}
+    
+
+.subcribe-text h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.subcribe-text p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+.subs-button {
+    text-align: center;
+    position: relative;
+}
+.sub-section{
+    padding-top: 50px;
+    text-align: left;
+}
+.sub-section input{
+    background: #fff;
+    border-radius: 50px;
+    padding: 24px ;
+    padding-left: 30px;
+    padding-right:350px ;
+    font-size: 18px;
+    position: absolute;
+    right: 320px;
+}
+
+
+button{
+    background: #F00;
+    border-radius: 10px 50px 50px 10px;
+    padding: 24px 80px;
+    font-size: 18px;
+    font-weight: 500;
+    position: absolute;
+    right: 320px;
+}
 
 
 
 
+.footer-section{
+    width: 1600px;
+    height: 600px;
+    background-color: #070211;
+    margin: 0 auto;
+}
+.text-footer{
+    font-family: Inter;
+    font-style: normal;
 
+}
+.text-footer p{
+    color: #FFF;
+    font-size: 24px;
+    word-spacing: 5px;
+    line-height: 40px; 
+    padding: 120px 140px;
+}
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.social-img{
+    bottom:280px;
+    position: absolute;
+}
+.number-section{
+    position: relative;
+}
+.text-section{
+    font-family: Inter;
+    font-style: normal;
+    position: absolute;
+    bottom: 430px;
+    left: 1100px;
 
+}
+.text-section p{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+  
+}
+.number-add{
+    position: absolute;
+    bottom: 440px;
+    left: 1070px;
 
+}
+.number-add img{
+    display: block;
+    padding: 20px 0px;
+}
+.btn{
+    font-family: Inter;
+    font-style: normal;
+}
+.btn button{
+    color: #FFF;
+    background: #ffffff9a;
+    font-size: 24px;
+   font-weight: 500;
+   bottom: 120px;
+   right: 180px;
+   position: absolute;
+   padding: 5px 20px;
 
+}
+ .btn button:hover{
+    background-color: transparent;
+    transition: all .5s linear;
+    background-color: #fff  ;
+    color: #F00;
+ }
+ 
