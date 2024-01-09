@@ -356,7 +356,7 @@ button{
 
 
 .footer-section{
-    width: 1600px;
+    width: 1320px;
     height: 600px;
     background-color: #070211;
     margin: 0 auto;
@@ -379,10 +379,12 @@ button{
     justify-content: center;
     position: relative;
 }
+
 .social-img{
     bottom:280px;
-    position: absolute;
+    position: absolute; 
 }
+
 .number-section{
     position: relative;
 }
@@ -391,7 +393,7 @@ button{
     font-style: normal;
     position: absolute;
     bottom: 430px;
-    left: 1100px;
+    left: 1000px;
 
 }
 .text-section p{
@@ -404,8 +406,7 @@ button{
 .number-add{
     position: absolute;
     bottom: 440px;
-    left: 1070px;
-
+    left: 965px;
 }
 .number-add img{
     display: block;
@@ -419,11 +420,11 @@ button{
     color: #FFF;
     background: #ffffff9a;
     font-size: 24px;
-   font-weight: 500;
-   bottom: 120px;
-   right: 180px;
-   position: absolute;
-   padding: 5px 20px;
+    font-weight: 500;
+    bottom: 120px;
+    right: 80px;
+    position: absolute;
+    padding: 5px 20px;
 
 }
  .btn button:hover{
